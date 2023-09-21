@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from "/imgs/SignArt.jpg"
+import { Link } from "react-router-dom";
+
 // import { FcGoogle } from 'react-icons/fc';
 // import React, { useEffect, useState } from "react";
 
@@ -26,7 +28,9 @@ const Signin = () => {
                         <input type="password" className="inputp" name="Password" placeholder="Password"></input><br/>
                         {/* <p class="err-msg2">Password error</p> */}
                             {/* <a className="input3"href=""> */}
-                                <button id="sign">SIGN IN</button>
+                            <Link to={`/Main/MainPage`}>
+                            <button id="sign">SIGN IN</button>
+                            </Link>
                     </form>
                 </div>
              </div>

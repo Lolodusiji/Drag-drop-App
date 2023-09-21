@@ -67,3 +67,17 @@ h4{
     width:100%;
     cursor: pointer;
 }
+
+@media screen and (max-width:800px) {
+    .big_img{
+        display: none;
+    }
+
+    .form_cont{
+        width: 100%;
+    }
+
+    .image_cont{
+        width: 0;
+    }
+}
