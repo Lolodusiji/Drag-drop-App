@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-path{
+    display: flex;
+    align-items: center;
+}
+
+#button{
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #BE123C;
+    padding: 5px 8px;
+    border-radius: 6px;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 5rem; */
+    color: #fff;
+    /* width:30%; */
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
