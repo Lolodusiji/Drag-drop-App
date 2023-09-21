@@ -28,3 +28,10 @@
     object-fit: cover;
     width: 100%;
 }
+
+@media screen and (max-width:650px) {
+    .general-container{
+    grid-template-columns:none;
+
+    }
+}
